@@ -12,6 +12,6 @@ There are N rown and three columns in the outfile. First column is the index ass
 "iForest/run_iF_for_AD.cpp" is the runner file to get anomlay score associated the the given dataset. It takes 4 inputs, i) datafile path ii) numbre of iTrees in Iforest (input parameter) iii) sampling factor (input parameter) and minimum sample size.
 
 Compilation: 
-> g++ run_iF_for_AD.cpp
+$ g++ run_iF_for_AD.cpp
 Run:
-> ./a.out dataFiles/"inputfile_name" 100 0.1 256
+$ ./a.out dataFiles/"inputfile_name" 100 0.1 256
